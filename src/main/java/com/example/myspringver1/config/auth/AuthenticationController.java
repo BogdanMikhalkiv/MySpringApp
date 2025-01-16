@@ -24,6 +24,8 @@ public class AuthenticationController {
 
     }
 
+    //привет
+
     @PostMapping("/authenticate")
     public ResponseEntity<AuthenticationResponse> authenticate(
             @RequestBody AuthenticationRequest request
